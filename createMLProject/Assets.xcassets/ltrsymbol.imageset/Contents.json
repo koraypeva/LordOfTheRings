@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "CXqK1DG-lord-of-the-rings-background.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "CXqK1DG-lord-of-the-rings-background@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "CXqK1DG-lord-of-the-rings-background@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

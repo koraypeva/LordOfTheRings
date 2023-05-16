@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1492DA2A02B9B2004D2B95 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1492D92A02B9B2004D2B95 /* FirstViewController.swift */; };
+		BB80FB742A05AEA100AF2AD6 /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80FB732A05AEA100AF2AD6 /* CharacterCollectionViewCell.swift */; };
+		BB80FB762A05B16700AF2AD6 /* CharactersClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80FB752A05B16700AF2AD6 /* CharactersClass.swift */; };
+		BB9C48252A13141900885D2B /* LordOfTheRingsImageClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BB9C48242A13141900885D2B /* LordOfTheRingsImageClassifier 1.mlmodel */; };
+		BBB9652929EDC5BD00932EA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB9652829EDC5BD00932EA2 /* AppDelegate.swift */; };
+		BBB9652B29EDC5BD00932EA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB9652A29EDC5BD00932EA2 /* SceneDelegate.swift */; };
+		BBB9652D29EDC5BD00932EA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB9652C29EDC5BD00932EA2 /* ViewController.swift */; };
+		BBB9653029EDC5BD00932EA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB9652E29EDC5BD00932EA2 /* Main.storyboard */; };
+		BBB9653229EDC5BF00932EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB9653129EDC5BF00932EA2 /* Assets.xcassets */; };
+		BBB9653529EDC5BF00932EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB9653329EDC5BF00932EA2 /* LaunchScreen.storyboard */; };
+		BBB9653D29EDC65A00932EA2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB9653C29EDC65A00932EA2 /* SecondViewController.swift */; };
+		BBB9653F29EDCD8F00932EA2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB9653E29EDCD8F00932EA2 /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB1492D92A02B9B2004D2B95 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		BB80FB732A05AEA100AF2AD6 /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB80FB752A05B16700AF2AD6 /* CharactersClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersClass.swift; sourceTree = "<group>"; };
+		BB9C48242A13141900885D2B /* LordOfTheRingsImageClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "LordOfTheRingsImageClassifier 1.mlmodel"; sourceTree = "<group>"; };
+		BBB9652529EDC5BD00932EA2 /* LordOfTheRings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LordOfTheRings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB9652829EDC5BD00932EA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBB9652A29EDC5BD00932EA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BBB9652C29EDC5BD00932EA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBB9652F29EDC5BD00932EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBB9653129EDC5BF00932EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBB9653429EDC5BF00932EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBB9653629EDC5BF00932EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB9653C29EDC65A00932EA2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BBB9653E29EDCD8F00932EA2 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBB9652229EDC5BD00932EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBB9651C29EDC5BD00932EA2 = {
+			isa = PBXGroup;
+			children = (
+				BBB9652729EDC5BD00932EA2 /* createMLProject */,
+				BBB9652629EDC5BD00932EA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBB9652629EDC5BD00932EA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBB9652529EDC5BD00932EA2 /* LordOfTheRings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBB9652729EDC5BD00932EA2 /* createMLProject */ = {
+			isa = PBXGroup;
+			children = (
+				BBB9652829EDC5BD00932EA2 /* AppDelegate.swift */,
+				BBB9652A29EDC5BD00932EA2 /* SceneDelegate.swift */,
+				BBB9652C29EDC5BD00932EA2 /* ViewController.swift */,
+				BBB9652E29EDC5BD00932EA2 /* Main.storyboard */,
+				BB9C48242A13141900885D2B /* LordOfTheRingsImageClassifier 1.mlmodel */,
+				BBB9653C29EDC65A00932EA2 /* SecondViewController.swift */,
+				BBB9653129EDC5BF00932EA2 /* Assets.xcassets */,
+				BBB9653329EDC5BF00932EA2 /* LaunchScreen.storyboard */,
+				BBB9653629EDC5BF00932EA2 /* Info.plist */,
+				BBB9653E29EDCD8F00932EA2 /* ImagePicker.swift */,
+				BB1492D92A02B9B2004D2B95 /* FirstViewController.swift */,
+				BB80FB732A05AEA100AF2AD6 /* CharacterCollectionViewCell.swift */,
+				BB80FB752A05B16700AF2AD6 /* CharactersClass.swift */,
+			);
+			path = createMLProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBB9652429EDC5BD00932EA2 /* LordOfTheRings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB9653929EDC5BF00932EA2 /* Build configuration list for PBXNativeTarget "LordOfTheRings" */;
+			buildPhases = (
+				BBB9652129EDC5BD00932EA2 /* Sources */,
+				BBB9652229EDC5BD00932EA2 /* Frameworks */,
+				BBB9652329EDC5BD00932EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LordOfTheRings;
+			productName = createMLProject;
+			productReference = BBB9652529EDC5BD00932EA2 /* LordOfTheRings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBB9651D29EDC5BD00932EA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BBB9652429EDC5BD00932EA2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = BBB9652029EDC5BD00932EA2 /* Build configuration list for PBXProject "LordOfTheRings" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBB9651C29EDC5BD00932EA2;
+			productRefGroup = BBB9652629EDC5BD00932EA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBB9652429EDC5BD00932EA2 /* LordOfTheRings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBB9652329EDC5BD00932EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB9653529EDC5BF00932EA2 /* LaunchScreen.storyboard in Resources */,
+				BBB9653229EDC5BF00932EA2 /* Assets.xcassets in Resources */,
+				BBB9653029EDC5BD00932EA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBB9652129EDC5BD00932EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB80FB742A05AEA100AF2AD6 /* CharacterCollectionViewCell.swift in Sources */,
+				BBB9653D29EDC65A00932EA2 /* SecondViewController.swift in Sources */,
+				BBB9652D29EDC5BD00932EA2 /* ViewController.swift in Sources */,
+				BBB9653F29EDCD8F00932EA2 /* ImagePicker.swift in Sources */,
+				BB80FB762A05B16700AF2AD6 /* CharactersClass.swift in Sources */,
+				BB9C48252A13141900885D2B /* LordOfTheRingsImageClassifier 1.mlmodel in Sources */,
+				BBB9652929EDC5BD00932EA2 /* AppDelegate.swift in Sources */,
+				BBB9652B29EDC5BD00932EA2 /* SceneDelegate.swift in Sources */,
+				BB1492DA2A02B9B2004D2B95 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBB9652E29EDC5BD00932EA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB9652F29EDC5BD00932EA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBB9653329EDC5BF00932EA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB9653429EDC5BF00932EA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBB9653729EDC5BF00932EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBB9653829EDC5BF00932EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBB9653A29EDC5BF00932EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CNR7W3SN2;
+				INFOPLIST_FILE = createMLProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appkorayMLProject.createMLProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBB9653B29EDC5BF00932EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CNR7W3SN2;
+				INFOPLIST_FILE = createMLProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appkorayMLProject.createMLProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBB9652029EDC5BD00932EA2 /* Build configuration list for PBXProject "LordOfTheRings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB9653729EDC5BF00932EA2 /* Debug */,
+				BBB9653829EDC5BF00932EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB9653929EDC5BF00932EA2 /* Build configuration list for PBXNativeTarget "LordOfTheRings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB9653A29EDC5BF00932EA2 /* Debug */,
+				BBB9653B29EDC5BF00932EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBB9651D29EDC5BD00932EA2 /* Project object */;
+}
